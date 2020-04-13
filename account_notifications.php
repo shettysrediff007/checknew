@@ -10,12 +10,12 @@
   Released under the GNU General Public License
 */
 
-  require('includes/application_top.php');
+ /* require('includes/application_top.php');
 
   if (!tep_session_is_registered('customer_id')) {
     $navigation->set_snapshot();
     tep_redirect(tep_href_link(FILENAME_LOGIN, '', 'SSL'));
-  }
+  }*/
 
 // needs to be included earlier to set the success message in the messageStack
   require(DIR_WS_LANGUAGES . $language . '/' . FILENAME_ACCOUNT_NOTIFICATIONS);
